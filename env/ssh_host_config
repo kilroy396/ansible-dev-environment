@@ -1,0 +1,47 @@
+Host ansible-control-node
+  HostName 10.1.3.8
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server1
+  HostName 10.1.3.101
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server2
+  HostName 10.1.3.102
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server3
+  HostName 10.1.3.103
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server4
+  HostName 10.1.3.104
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server5
+  HostName 10.1.3.105
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server6
+  HostName 10.1.3.106
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host server7
+  HostName 10.1.3.107
+  User ansible
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
