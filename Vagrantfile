@@ -46,7 +46,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     #mgmt.vm.synced_folder "development-project", "/development"
   end
 
-  (1..4).each do |i|
+  (1..2).each do |i|
     config.vm.define "node#{i}" do |node|
       node.vm.hostname = "host#{i}.dev"
       node.vm.hostname = "server#{i}"
