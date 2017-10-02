@@ -9,7 +9,7 @@
 3. Add the following to the localhosts ~/.ssh/config
 
     ```
-    Host ansible-control-node
+    Host control ansible-control-node
       HostName 10.1.3.8
       User ansible
       IdentityFile ~/.ssh/ansible

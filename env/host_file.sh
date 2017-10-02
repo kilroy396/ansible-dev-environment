@@ -1,4 +1,4 @@
-cat >> ~/hosts <<EOL
+cat > /etc/hosts <<EOL
 # vagrant environment nodes
 10.1.3.8    ansible-control-node
 10.1.3.101  server1
@@ -12,5 +12,3 @@ cat >> ~/hosts <<EOL
 10.1.3.109  server9
 10.1.3.110  server10
 EOL
-
-sudo mv ~/hosts /etc/hosts
