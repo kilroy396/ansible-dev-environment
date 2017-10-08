@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # General Vagrant VM configuration.
-  config.vm.box = "kilroy396/centos7-h"
+  config.vm.box = "kilroy396/local-centos7"
   config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.provision :shell, :path => "env/base-config.sh"
   config.vm.provider :virtualbox do |v|
